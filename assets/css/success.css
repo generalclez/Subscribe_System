@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.div {
+  margin-top: 1rem;
+  background-color: rgb(13, 13, 153);
+  color: white;
+  border-radius: 10px;
+  border: 5px double black;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.div2 {
+  padding-bottom: 3rem;
+}
+
+a,
+.goBack {
+  text-decoration: none;
+  color: gold;
+}
+
+a:hover {
+  color: red;
+}
+
+h6 {
+  border-color: red;
+  font-weight: 600;
+  color: yellow;
+}

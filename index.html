@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+    <!-- Main Content Container with Background Image -->
+    <div class="main-content-container"
+        style=" background-image: url('./assets/images/ddd.jpg'); background-repeat: no-repeat; background-size: 100% 100%; background-position: center; position: relative; background-color: purple">
+
+        <div class="container">
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="mainDiv text-center">
+                        <img img-fluid src="./assets/images/IMG-.jpg" class="rounded rounded-5 mb-5"
+                            style="width: 12rem;" />
+                        <h1 class="welcome">Welcome To The</h1>
+                        <h1 class="glory">
+                            Glory <span class="text-warning"> Journal</span>
+                        </h1>
+                        <i>Subscription Page</i>
+                        <h6 class="monthly mx-auto pb-1">(A MONTHLY PUBLICATION OF THE CITYGATE CHURCH)</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- The Form content here -->
+
+    <div id="contentContainer" class="container bg-light rounded-3 shadow-sm pb-5">
+        <div id="subscribeContainer">
+            <div class="subscribe-content pt-4 text-black">
+                <p>
+                    To continuously receive The Glory Journal publication monthly,
+                    kindly click the subscribe button below.
+                </p>
+
+                <div style="margin: 1rem 0 2rem;">
+                    <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Download Previews Edition
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item"
+                                href="https://drive.google.com/uc?export=download&id=1sqRARQ7WoTTlewh3bZqvqxsZm7AsNTMX"
+                                download="the-glory-journal.pdf">Vol.1 - June 2023</a></li>
+                    </ul>
+                </div>
+
+                <button class="btn1 bg-primary fw-bolder fs-4 mx-auto" id="subscribeBtn">
+                    Subscribe <img src="./assets/images/bell-860.png" alt="" />
+                </button>
+            </div>
+        </div>
+
+        <div id="formContainer" style="display: none;">
+            <div class="subscribe-content text-black">
+                <h3>Sign up now!</h3>
+                <p>To stay updated with The Glory Journal publication monthly.</p>
+            </div>
+            <form class="form bg-primary bg-opacity-50 rounded rounded-3" id="subscriptionForm">
+                <div class="form-group">
+                    <input type="text" name="name" class="form-control" placeholder="Enter Fullname" required />
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="email" name="email" class="form-control" placeholder="Enter Email Address" required />
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="text" name="phone" class="form-control" placeholder="Enter Phone Number" required />
+                </div>
+                <br />
+                <div class="formLocation">
+                    <div class="formLocation form-group">
+                        <input type="text" name="country" class="form-control" placeholder="Enter Country" required />
+                    </div>
+                    <div class="formLocation form-group ">
+                        <input type="text" name="state" class="form-control ms-2" placeholder="State/Province"
+                            required />
+                    </div>
+                </div>
+                <button class="btn1 fw-bold fs-5 mt-3" type="submit"><a href="./success.html">Submit!</a></button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Footer Container-->
+    <footer style="background-color: rgb(0, 0, 0);">
+        <hr class="border border-2" />
+
+        <div class="container">
+            <div class="row justify-content-center text-white">
+                <div class="col-md-7 mt">
+                    <div>
+                        <img src="./assets/images/pin.png" alt="" />
+                        <span class="mb-4 ms-3" style="font-size: medium;">120 Ajibode Junction, UI-Ojoo Road,
+                            Ibadan</span>
+                    </div>
+                    <div class="mt-2" style="margin-left: -6.7rem;">
+                        <img src="./assets/images/Fill 1.png" alt="" />
+                        <span
+                            style="font-size: 18px; padding-left: 1.3rem; font-size: medium;">info@thecitygatechurch.org</span>
+                    </div>
+                    <div class="mt-2" style="margin-left: -11.2rem;">
+                        <img src="./assets/images/Fill 1 (1).png" alt="" />
+                        <span style="font-size: 17px; padding-left: 17px; font-size: medium;">+2348138491626</span>
+                    </div>
+                </div>
+
+                <div class="col-md-5 mt-4">
+                    <div class="d-flex justify-content-center justify-content-md-center">
+                        <a href="https://web.facebook.com/dcitygatechurch.com">
+                            <img src="./assets/images/facebook.png" alt="" style="width: 35px;" />
+                        </a>
+                        <a href="http://twitter.com/dcitygatechurch">
+                            <img src="./assets/images/twitter.png" alt="" style="width: 35px; margin: 0 1rem;" />
+                        </a>
+                        <a href="https://www.dcititigatechurch.com">
+                            <img src="./assets/images/inst.png" alt="" style="width: 35px;" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col text-center">
+                    <img src="./assets/images/logo.png" style="width: 4rem;" />
+                    <p class="text-warning mb-5">&copy; 2023 The CityGate Church, All Rights Reserved.</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
